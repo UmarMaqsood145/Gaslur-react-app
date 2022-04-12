@@ -1,0 +1,90 @@
+footer {
+    background: #1F1D2B;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .content {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .title {
+    width: 380px;
+    height: 300px;
+    margin: 20px;
+}
+
+footer .box {
+    width: 170px;
+    height: 180px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box li {
+    margin-top: 10px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+footer .box h1 {
+    font-size: 20px;
+    height: auto;
+    color: white;
+}
+
+.title h3 {
+    font-size: 30;
+    color: white;
+}
+
+footer hr {
+    width: 83%;
+    margin: auto;
+}
+
+.icons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.icons .iii {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.copy h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+@media (max-width:500px) {
+    .icons .iii{
+        margin-left: 10px;
+    }
+    .copy h3 {
+        font-size: 10px;
+    }
+    footer .title{
+        padding: 0px 20px;
+    }
+}
+

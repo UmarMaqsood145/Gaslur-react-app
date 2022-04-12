@@ -1,0 +1,76 @@
+#section1 {
+    background: #1F1D2B;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section1 .contentBox {
+    width: 400px;
+    color: white;
+}
+
+#section1 .contentBox .explore {
+    background: linear-gradient(to right, #9B51E0, #3081ED );
+    padding: 5px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#section1 .contentBox .create {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px 25px;
+    background: none;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#section1 .imgBox {
+    background: none;
+    width: 300px;
+    height: 370px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #9B51E0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#section1 .imgBox img{
+    border-radius: 30px;
+}
+
+#section1 .imgBox .smallBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#section1 .imgBox .smallBox img{
+    width: 40px;
+    height: 40px;
+}
+
+#section1 .imgBox .smallBox p{
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 500px){
+    #section1 .contentBox {
+        padding: 20px 40px;
+    }
+}

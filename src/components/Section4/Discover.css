@@ -1,0 +1,134 @@
+.discover {
+    width: 100%;
+    height: auto;
+    background-color: #1F1D2B;
+}
+
+
+/* discover navbar */
+
+.discovernav {
+    width: 100%;
+    height: 130px;
+    background-color: #1F1D2B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discovernav h1 {
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.disitem {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 60px;
+}
+
+.disitem li {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.disitem button {
+    border-radius: 5px;
+    margin-left: 15px;
+    background: linear-gradient(to right, #9B51E0, #3081ED );
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+/* discover cards */
+
+.discovercard {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    color: white;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.card .firstcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card .secondcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.secondcontent button {
+    width: 80px;
+    height: 35px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+}
+
+.discover button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+
+    .discovernav h1{
+        margin:auto;
+    }
+
+    .disitem{
+        margin: 0;
+        justify-content: center;
+    }
+}
